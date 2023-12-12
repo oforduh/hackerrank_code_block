@@ -4,7 +4,6 @@ function findMedian(arr: number[]) {
   console.log("yes");
 
   const iseven = sortedArray.length % 2 === 0;
-  console.log(iseven);
 
   if (iseven) {
     const median =
